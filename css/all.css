@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, button h1,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 64px;
+  color: white;
+  margin-bottom: 36px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.nav,
+.header {
+  background: black;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  display: block;
+  color: white;
+  padding: 40px 0;
+}
+
+.nav a:hover {
+  color: red;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.people {
+  padding-top: 72px;
+  padding-bottom: 32px;
+}
+
+.title p {
+  color: white;
+  font-size: 64px;
+}
+
+.name {
+  color: #00FFA3;
+  text-align: right;
+  font-size: 128px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn a {
+  font-size: 16px;
+  background: white;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.btn a:hover {
+  background: #00FFA3;
+  color: white;
+}
+
+.arrow {
+  margin-left: 4px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.introduction {
+  background: url(../img/background-img.png);
+  width: 100%;
+}
+
+.introduction-content {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.section-left {
+  width: 526px;
+  padding-top: 160px;
+}
+
+.section-left p {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.section-left img {
+  display: inline;
+}
+
+.sparkle-medium {
+  margin: 0 16px;
+}
+
+.section-right {
+  display: flex;
+  gap: 24px;
+  padding: 160px 0;
+}
+
+.about-me-content {
+  display: flex;
+  gap: 134px;
+}
+
+.about-me .cards {
+  width: 636px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 206px;
+}
+
+.card {
+  width: 306px;
+  padding: 16px;
+}
+
+.about-me-title {
+  width: 526px;
+  padding: 160px 0;
+}
+
+.about-me-title h2 {
+  color: black;
+}
+
+.about-me-title p {
+  font-size: 24px;
+}
+
+.contact {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.contact h2 {
+  width: 541px;
+  margin: 0;
+  margin-right: 16px;
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+}
+
+.right-arrow {
+  margin-right: 113px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 0;
+  gap: 20px;
+}
+
+.social img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+.porject h2 {
+  color: black;
+  width: 746px;
+  margin: 0;
+  margin-left: 550px;
+  padding-top: 160px;
+  padding-bottom: 16px;
+}
+
+.porject-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 160px;
+}
+
+.porject-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.porject-2 p {
+  width: 636px;
+}
+
+.porject-2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.porject-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.porject-2-content a {
+  font-size: 16px;
+  background: black;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.porject-2-content a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  background: black;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}/*# sourceMappingURL=all.css.map */
