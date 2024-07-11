@@ -304,7 +304,7 @@ h3 {
 }
 
 .porject-2-content a:hover {
-  background-color: white;
+  background: #00FFA3;
   color: black;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
