@@ -26,7 +26,7 @@ h3{
 
 .nav a {
 	display: block;
-	color: white;
+	color: #D1D1D1;
 	padding: 40px 0;
 }
 
@@ -58,20 +58,20 @@ h3{
 	font-weight: 400;
 }
 
-.btn {
+.btn-flex{
 	display: flex;
 	justify-content: flex-end;
 }
 
-.btn a {
-	font-size: 16px;
-	background: white;
+.btn {
 	color: black;
 	padding: 12px 24px;
 	border-radius: 32px;
+	font-size: 16px;
+	background: white;
 }
 
-.btn a:hover {
+.btn:hover {
 	background: #00FFA3;
 	color: white;
 }
@@ -85,7 +85,8 @@ h3{
 
 .introduction {
 	background: url(../img/background-img.png);
-	width: 100%;
+	background-size:cover;
+	background-size:contain;
 }
 
 .introduction-content{
@@ -122,6 +123,7 @@ h3{
 .about-me-content{
 	display: flex;
 	gap: 134px;
+	align-items: center;
 }
 
 .about-me .cards{
@@ -129,12 +131,14 @@ h3{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 24px;
-	padding-top: 206px;
 }
 
 .card{
 	width: 306px;
 	padding: 16px;
+	color: #15161D;
+	border: 1px solid rgba(227, 227, 227, 1);
+	box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
 }
 
 .about-me-title{
@@ -148,6 +152,7 @@ h3{
 
 .about-me-title p{
 	font-size: 24px;
+	color: #15161D;
 }
 
 .contact{
@@ -177,9 +182,9 @@ h3{
 }
 
 .social img:hover {
-    transform: scale(1.1);
-    filter: brightness(1.2);
-}
+	box-shadow: 0px 0px 16px 3px #9094FFE5;
+	border-radius: 40px;
+}	
 
 .porject h2{
 	color: black;
@@ -206,6 +211,7 @@ h3{
 
 .porject-2 p{
 	width: 636px;
+	color: #15161D;
 }
 
 .porject-2-content{
@@ -220,15 +226,12 @@ h3{
 	justify-content: space-between;
 }
 
-.porject-2-content a{
-	font-size: 16px;
+.porject-2-content .btn{
 	background: black;
 	color: white;
-	padding: 12px 24px;
-	border-radius: 32px;
 }
 
-.porject-2-content a:hover{
+.porject-2-content .btn:hover{
     background: #00FFA3;
     color: black;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
