@@ -236,26 +236,27 @@ h3 {
 .contact h2 {
   width: 541px;
   margin: 0;
-  margin-right: 16px;
 }
 
 .contact-content {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.right-arrow {
-  margin-right: 113px;
+.social {
+  display: flex;
+  gap: 16px;
 }
 
-.social {
+.social-icon {
   display: flex;
   justify-content: space-between;
   padding: 96px 0;
   gap: 20px;
 }
 
-.social img:hover {
+.social-icon img:hover {
   box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.8980392157);
   border-radius: 40px;
 }
