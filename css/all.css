@@ -96,6 +96,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #D1D1D1;
 }
 
 .nav a {
@@ -270,7 +271,7 @@ h3 {
   color: black;
   width: 746px;
   margin: 0;
-  margin-left: 550px;
+  margin-left: auto;
   padding-top: 160px;
   padding-bottom: 16px;
 }
